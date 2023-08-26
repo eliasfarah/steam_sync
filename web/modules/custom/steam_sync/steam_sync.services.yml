@@ -1,0 +1,5 @@
+services:
+  steam_sync.cron:
+    class: Drupal\steam_sync\SteamSyncCron
+    tags:
+      - { name: cron, method: syncSteamGames }

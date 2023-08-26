@@ -1,0 +1,5 @@
+name: 'Steam Sync'
+type: module
+description: 'Integração com a Steam API para sincronizar jogos da biblioteca.'
+core_version_requirement: ^10 || ^11
+package: Custom

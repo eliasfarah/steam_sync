@@ -1,0 +1,7 @@
+steam_sync.syncgames:
+  path: '/sync-games'
+  defaults:
+    _controller: 'Drupal\steam_sync\Controller\SteamSyncController::content'
+    _title: 'Sync Games'
+  requirements:
+    _permission: 'access content'
